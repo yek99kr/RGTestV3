@@ -9,7 +9,6 @@ function LoadImage(props) {
   return (
     <Image
       {...props}
-      // blurDataURL="/images/path-to-blur-image.jpg"
       placeholder="blur"
       blurDataURL={`/_next/image?url=${props.src}&w=16&q=1`}
     />
