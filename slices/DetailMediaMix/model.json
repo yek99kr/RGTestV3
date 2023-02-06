@@ -183,6 +183,186 @@
       },
       "items": {},
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "169916",
+      "name": "16/9 + 9/16",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "DetailMediaMix",
+      "primary": {
+        "media1": {
+          "type": "Link",
+          "config": {
+            "label": "Media1",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "media1Autoplay": {
+          "type": "Boolean",
+          "config": {
+            "label": "Media1 Autoplay",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        },
+        "media2": {
+          "type": "Link",
+          "config": {
+            "label": "Media2",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "media2Autoplay": {
+          "type": "Boolean",
+          "config": {
+            "label": "Media2 Autoplay",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "91616X9",
+      "name": "9/16 + 16X9",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "DetailMediaMix",
+      "primary": {
+        "media1": {
+          "type": "Link",
+          "config": {
+            "label": "Media1",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "media1Autoplay": {
+          "type": "Boolean",
+          "config": {
+            "label": "Media1 Autoplay",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        },
+        "media2": {
+          "type": "Link",
+          "config": {
+            "label": "Media2",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "media2Autoplay": {
+          "type": "Boolean",
+          "config": {
+            "label": "Media2 Autoplay",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "11169",
+      "name": "1/1 + 16/9",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "DetailMediaMix",
+      "primary": {
+        "media1": {
+          "type": "Link",
+          "config": {
+            "label": "Media1",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "media1Autoplay": {
+          "type": "Boolean",
+          "config": {
+            "label": "Media1 Autoplay",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        },
+        "media2": {
+          "type": "Link",
+          "config": {
+            "label": "Media2",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "media2Autoplay": {
+          "type": "Boolean",
+          "config": {
+            "label": "Media2 Autoplay",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "16911",
+      "name": "16/9 + 1/1",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "DetailMediaMix",
+      "primary": {
+        "media1": {
+          "type": "Link",
+          "config": {
+            "label": "Media1",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "media1Autoplay": {
+          "type": "Boolean",
+          "config": {
+            "label": "Media1 Autoplay",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        },
+        "media2": {
+          "type": "Link",
+          "config": {
+            "label": "Media2",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "media2Autoplay": {
+          "type": "Boolean",
+          "config": {
+            "label": "Media2 Autoplay",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     }
   ]
 }

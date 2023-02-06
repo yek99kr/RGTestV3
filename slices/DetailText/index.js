@@ -5,7 +5,15 @@ const DetailText = ({ slice }) => {
     <>
       <div className="col-start-3 relative leading-[4vw] md:leading-7 text-[3.3vw] md:text-[22px] text-center w-[94vw] md:w-[650px] lg:w-[800px] xl:w-[900px] mt-[2vw] mb-[2vw] md:mt-[40px] md:mb-[40px] lg:mt-[50px] lg:mb-[50px]">
         <div className="text-left">
-          {slice.primary.text ? <RichText render={slice.primary.text} /> : null}
+          {slice.primary.text ? (
+            <>
+              {slice.primary.text.map((t, i) => (
+                <div key={i} className={`${i === 0 ? "mt-0" : "mt-5"}`}>
+                  {t.text}
+                </div>
+              ))}
+            </>
+          ) : null}
         </div>
       </div>
     </>
@@ -13,3 +21,7 @@ const DetailText = ({ slice }) => {
 };
 
 export default DetailText;
+
+{
+  /* <RichText render={slice.primary.text} /> */
+}
