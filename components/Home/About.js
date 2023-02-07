@@ -157,7 +157,7 @@ const About = (props) => {
             </a>{" "}
             and <br className="sm:hidden" />
             we have more work{" "}
-            <Link href="/projects">
+            <Link href="/work">
               <a>
                 <span className="deck inline-block noselect thumbcursor">
                   <span className="wiggle1 text-purple-500">h</span>
