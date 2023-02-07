@@ -6,7 +6,7 @@ import * as THREE from "three";
 import { useRef, useEffect, useState } from "react";
 import { useGLTF, Html, useAnimations } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
-import Vimeo from "@u-wave/react-vimeo";
+// import Vimeo from "@u-wave/react-vimeo";
 
 export default function Model({ close, setClose, hinge, ...props }) {
   const group = useRef();
@@ -83,7 +83,7 @@ export default function Model({ close, setClose, hinge, ...props }) {
                 }}
                 style={{ transformOrigin: "top left", overflow: "hidden" }}
               >
-                <Vimeo
+                {/* <Vimeo
                   video="https://vimeo.com/711679952"
                   autoplay={true}
                   autopause={false}
@@ -94,13 +94,13 @@ export default function Model({ close, setClose, hinge, ...props }) {
                   height="250%"
                   muted={true}
                   className="absolute top-[-90%] left-0 pointer-events-none z-[0] "
-                />
-                {/* <iframe
+                /> */}
+                <iframe
                   className="absolute top-[-200%] h-[500%] w-[100%] left-0 pointer-events-none z-[0] "
-                  src={`//player.vimeo.com/video/773602755?h=6564d2fcf6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?quality=1080p&loop=1&autoplay=1?background=1&controls=0
+                  src={`//player.vimeo.com/video/773602755?h=6564d2fcf6&badge=0&autopause=0&player_id=0&app_id=58479?quality=1080p&loop=1&autoplay=1&background=1&controls=0
                   }`}
                   frameBorder="0"
-                ></iframe> */}
+                ></iframe>
               </div>
 
               <div className="absolute left-0 w-[16px] h-[15px] bg-white rounded-br text-[9px] pl-[1px] text-gray-600 font-semibold">

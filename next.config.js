@@ -22,7 +22,6 @@
 //     rewrites,
 //   };
 // };
-
 module.exports = {
   async headers() {
     return [
