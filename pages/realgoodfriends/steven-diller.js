@@ -1,7 +1,7 @@
 const stevenDiller = () => {
   return (
     <div className="md:w-[90vw] w-[100vw] h-[100vh]">
-      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[50%] font-bold ">
+      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[48.5%] font-bold ">
         <div className=" md:p-0 w-[94vw] md:w-[80vw] aspect-video">
           <iframe
             className="w-[100%] h-[100%]"
