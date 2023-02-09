@@ -17,7 +17,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -45,7 +44,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -75,7 +73,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -102,7 +99,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -134,7 +130,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -165,7 +160,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -199,7 +193,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -230,7 +223,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -264,7 +256,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -295,7 +286,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -329,7 +319,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -360,7 +349,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -394,7 +382,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -425,7 +412,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -459,7 +445,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -490,7 +475,6 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
-                autoPlay="1"
               ></iframe>
             </div>
           ) : (

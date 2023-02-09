@@ -16,6 +16,7 @@ const DetailMedia9X16 = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
+                frameBorder="0"
               ></iframe>
             </div>
           ) : (

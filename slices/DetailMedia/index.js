@@ -57,8 +57,6 @@ const DetailMedia = ({ slice }) => {
                   }`}
                   allowFullScreen
                   frameBorder="0"
-                  autoPlay="1"
-                  loading="lazy"
                 ></iframe>
               </div>
             </>
