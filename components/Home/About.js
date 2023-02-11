@@ -137,42 +137,6 @@ const About = (props) => {
           </span>
         </p>
 
-        <>
-          <p className="font-[400] pt-[1.8em] sm:pt-[1.5em]">
-            Our work can be seen on{" "}
-            <a
-              href="https://www.instagram.com/real.good.studio/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span className="insta cursor-pointer inline-block noselect thumbcursor">
-                <span className="wiggle1 text-pink-500">i</span>
-                <span className="wiggle2 text-sky-400">n</span>
-                <span className="wiggle3 text-yellow-500">s</span>
-                <span className="wiggle4 text-purple-500">t</span>
-                <span className="wiggle5 text-pink-500">a</span>
-                <span className="wiggle6 text-sky-400">g</span>
-                <span className="wiggle7 text-pink-500">r</span>
-                <span className="wiggle8 text-yellow-500">a</span>
-                <span className="wiggle9 text-green-500">m</span>
-              </span>
-            </a>{" "}
-            and <br className="sm:hidden" />
-            we have more work{" "}
-            <Link href="/work">
-              <a>
-                <span className="deck inline-block noselect thumbcursor">
-                  <span className="wiggle1 text-purple-500">h</span>
-                  <span className="wiggle2 text-yellow-500">e</span>
-                  <span className="wiggle3 text-sky-400">r</span>
-                  <span className="wiggle4 text-pink-500">e</span>
-                </span>
-              </a>
-            </Link>
-            .
-          </p>
-        </>
-
         {/* <p className="font-[400] pt-[1.8em] sm:pt-[1.5em] select-auto">
           Currently taking on select projects{" "}
           <a href="mailto: hello@realgood.tv" target="_blank" rel="noreferrer">

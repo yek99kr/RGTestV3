@@ -13,7 +13,7 @@ const HomePage = ({ router }) => {
   const isTouch = useIsTouch();
 
   return (
-    <div className="absolute w-[100vw] h-[100vh] overflow-hidden">
+    <div className="absolute top-[-30px] sm:top-0 w-[100vw] h-[100vh] overflow-hidden">
       {isSmallerHeight || isSmallerWidth || isTouch ? (
         <div className="absolute top-0 left-0 bg-[#e9ebf0] w-[100vw] h-[100vh]"></div>
       ) : (

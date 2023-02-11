@@ -52,7 +52,7 @@ const Nav = () => {
             </a>
           </Link>
 
-          {/* <Link href="/realgoodfriends" passHref scroll={false}>
+          <Link href="/realgoodfriends" passHref scroll={false}>
             <a
               className={`inline-block p-[0.3vw] hover:rotate-[2deg] sm:p-0 sm:pl-0.5 sm:pr-1  thumbcursor   hover:opacity-100 duration-[0.2s] 
             ${
@@ -68,7 +68,7 @@ const Nav = () => {
                 Friends
               </span>
             </a>
-          </Link> */}
+          </Link>
 
           <Link href="/shop" passHref scroll={false}>
             <a
