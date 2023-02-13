@@ -19,7 +19,7 @@ const realgoodfriends = ({ router }) => {
             opacity: 0,
           },
         }}
-        className="fixed overflow-hidden w-[100vw] h-[100vh]"
+        className="absolute top-0 w-[100vw] h-[100%] overflow-hidden"
       >
         <FriendsPage />
       </motion.div>
