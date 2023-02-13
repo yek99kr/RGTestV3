@@ -11,7 +11,7 @@ import ShopProvider from "../context/shopContext";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import ContactPage from "../components/ContactPage";
 
-function MyApp({ Component, pageProps, router }) {
+function MyApp({ router, Component, pageProps }) {
   const isSmallestHeight = useMediaQueryHeight(349);
 
   return (

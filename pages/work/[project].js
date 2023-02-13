@@ -35,6 +35,16 @@ export async function getStaticPaths() {
     fallback: false,
   };
 }
+// export async function getStaticPaths() {
+//   const client = createClient();
+
+//   const pages = await client.getAllByType("works");
+
+//   return {
+//     paths: pages.map((page) => prismicH.asLink(page)),
+//     fallback: true,
+//   };
+// }
 
 const project = ({ router, project, projects }) => {
   // console.log(project.uid);

@@ -57,7 +57,7 @@ function ContactPage(props) {
           </span>
         </div>
         <div
-          className={`flex fixed w-screen justify-center items-center mt-[3.5vw] 2xs:mt-[4rem] xs:mt-[4.5rem] sm:mt-[4.5rem] text-[2.9vw] sm:text-sm md:text-base z-[1000] pointer-events-none  ${
+          className={`flex fixed w-screen justify-center items-center pt-[3.2vw] 2xs:pt-[3.7rem] xs:pt-[4.2rem] sm:pt-[4.5rem] text-[2.9vw] sm:text-sm md:text-base z-[1000] pointer-events-none  ${
             copyed ? "opacity-100" : "opacity-0"
           }`}
           style={{ transition: "opacity 0.8s" }}
