@@ -12,11 +12,9 @@ const DetailMedia = ({ slice }) => {
               <div className="col-start-3 md:p-0 w-[100vw] md:w-[100vw] aspect-video">
                 <iframe
                   className="w-[100%] h-[100%]"
-                  src={`${slice.primary.media.url.slice(
-                    6
-                  )}?quality=1080p&loop=1${
+                  src={`${slice.primary.media.url.slice(6)}?quality=1080p${
                     slice.primary.autoplay
-                      ? "&background=1&autoplay=1&muted=1&controls=0"
+                      ? "&autopause=0&loop=1&background=1&autoplay=1&muted=1&controls=0"
                       : ""
                   }`}
                   allowFullScreen
@@ -48,11 +46,9 @@ const DetailMedia = ({ slice }) => {
               <div className="col-start-3 md:p-0 w-[94vw] md:w-[96vw] aspect-video">
                 <iframe
                   className="w-[100%] h-[100%]"
-                  src={`${slice.primary.media.url.slice(
-                    6
-                  )}?quality=1080p&loop=1${
+                  src={`${slice.primary.media.url.slice(6)}?quality=1080p${
                     slice.primary.autoplay
-                      ? "&background=1&autoplay=1&muted=1&controls=0"
+                      ? "&autopause=0&loop=1&background=1&autoplay=1&muted=1&controls=0"
                       : ""
                   }`}
                   allowFullScreen

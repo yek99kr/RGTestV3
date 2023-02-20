@@ -106,6 +106,15 @@
             "placeholder_true": "true",
             "default_value": false
           }
+        },
+        "onMobile": {
+          "type": "Boolean",
+          "config": {
+            "label": "On Mobile",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          }
         }
       },
       "items": {},

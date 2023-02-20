@@ -8,11 +8,9 @@ const DetailMedia9X16 = ({ slice }) => {
             <div className="col-start-3 md:col-start-1 w-[94vw] md:w-[31vw] relative rounded md:place-self-start md:left-[2vw] aspect-[9/16]">
               <iframe
                 className="w-[100%] h-[100%]"
-                src={`${slice.primary.media1.url.slice(
-                  6
-                )}?quality=1080p&loop=1${
+                src={`${slice.primary.media1.url.slice(6)}?quality=1080p${
                   slice.primary.media1Autoplay
-                    ? "&background=1&autoplay=1&muted=1&controls=0"
+                    ? "&autopause=0&loop=1&background=1&autoplay=1&muted=1&controls=0"
                     : ""
                 }`}
                 allowFullScreen
@@ -36,11 +34,9 @@ const DetailMedia9X16 = ({ slice }) => {
             <div className="col-start-3 w-[94vw] md:w-[31vw] rounded aspect-[9/16]">
               <iframe
                 className="w-[100%] h-[100%]"
-                src={`${slice.primary.media2.url.slice(
-                  6
-                )}?quality=1080p&loop=1${
+                src={`${slice.primary.media2.url.slice(6)}?quality=1080p${
                   slice.primary.media2Autoplay
-                    ? "&background=1&autoplay=1&muted=1&controls=0"
+                    ? "&autopause=0&loop=1&background=1&autoplay=1&muted=1&controls=0"
                     : ""
                 }`}
                 allowFullScreen
@@ -63,11 +59,9 @@ const DetailMedia9X16 = ({ slice }) => {
             <div className="col-start-3 md:col-start-5 w-[94vw] md:w-[31vw] relative rounded md:place-self-end md:right-[2vw] aspect-[9/16]">
               <iframe
                 className="w-[100%] h-[100%]"
-                src={`${slice.primary.media3.url.slice(
-                  6
-                )}?quality=1080p&loop=1${
+                src={`${slice.primary.media3.url.slice(6)}?quality=1080p${
                   slice.primary.media3Autoplay
-                    ? "&background=1&autoplay=1&muted=1&controls=0"
+                    ? "&autopause=0&loop=1&background=1&autoplay=1&muted=1&controls=0"
                     : ""
                 }`}
                 allowFullScreen
@@ -89,14 +83,12 @@ const DetailMedia9X16 = ({ slice }) => {
       ) : (
         <>
           {slice.primary.media1.link_type === "Web" ? (
-            <div className="md:mt-10 col-start-3 md:col-start-2 w-[70vw] md:w-[26vw] relative rounded md:place-self-end md:left-[3vw] aspect-[9/16] rotate-[-2deg] ">
+            <div className="md:mt-10 col-start-3 md:col-start-2 w-[70vw] md:w-[26vw] relative rounded md:place-self-end md:left-[3vw] aspect-[9/16] md:mb-5 rotate-[-2deg] ">
               <iframe
                 className="w-[100%] h-[100%]"
-                src={`${slice.primary.media1.url.slice(
-                  6
-                )}?quality=1080p&loop=1${
+                src={`${slice.primary.media1.url.slice(6)}?quality=1080p${
                   slice.primary.media1Autoplay
-                    ? "&background=1&autoplay=1&muted=1&controls=0"
+                    ? "&autopause=0&loop=1&background=1&autoplay=1&muted=1&controls=0"
                     : ""
                 }`}
                 allowFullScreen
@@ -115,21 +107,19 @@ const DetailMedia9X16 = ({ slice }) => {
             </div>
           )}
           {slice.primary.media2.link_type === "Web" ? (
-            <div className="md:mt-10  col-start-3 md:col-start-4 w-[70vw] md:w-[26vw] rounded aspect-[9/16] rotate-[2deg] ">
+            <div className="md:mt-10  col-start-3 md:col-start-4 w-[70vw] md:w-[26vw] rounded aspect-[9/16] rotate-[2deg] md:mb-5  ">
               <iframe
                 className="w-[100%] h-[100%]"
-                src={`${slice.primary.media2.url.slice(
-                  6
-                )}?quality=1080p&loop=1${
+                src={`${slice.primary.media2.url.slice(6)}?quality=1080p${
                   slice.primary.media2Autoplay
-                    ? "&background=1&autoplay=1&muted=1&controls=0"
+                    ? "&autopause=0&loop=1&background=1&autoplay=1&muted=1&controls=0"
                     : ""
                 }`}
                 allowFullScreen
               ></iframe>
             </div>
           ) : (
-            <div className="md:mt-10  col-start-3 md:col-start-4  w-[94vw] md:w-[26vw] rounded aspect-[9/16] rotate-[-2deg]">
+            <div className="md:mt-10  col-start-3 md:col-start-4  w-[94vw] md:w-[26vw] rounded aspect-[9/16] rotate-[-2deg] md:mb-5 ">
               <Image
                 src={slice.primary.media2.url}
                 //   alt={thumbnails[0]}
