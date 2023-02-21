@@ -14,7 +14,7 @@ const ProjectDetail = ({ project, projects }) => {
         className="relative top-0 grid justify-items-center w-[100vw] grid-cols-5 gap-y-[5.6vw] md:gap-y-[1.5rem]
         "
       >
-        <div className="absolute bg-red text-center w-[90vw] h-[11vw] lg:h-[5vw] top-[22vw] md:top-[23vw] lg:top-[21vw] xl:top-[23vw] z-[100]">
+        <div className="absolute bg-red text-center w-[90vw] h-[11vw] lg:h-[5vw] top-[22vw] md:top-[23vw] lg:top-[21vw] xl:top-[23vw] 2xl:top-[20vw] z-[100]">
           <h1 className="text-[5.7vw] sm:text-[40px] lg:text-[50px] 2xl:text-[55px]">
             <span className="text-white bg-black p-[0.3vw] md:p-0.5 pl-3 pr-3 font-bold">
               {project.data.client}
