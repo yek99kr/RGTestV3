@@ -14,7 +14,6 @@ import EmailSubscribe from "../components/EmailSubscribe";
 
 function MyApp({ Component, pageProps, router }) {
   const isSmallestHeight = useMediaQueryHeight(349);
-  // console.log(router.asPath);
 
   return (
     <>
