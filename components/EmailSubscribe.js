@@ -154,7 +154,7 @@ const CustomForm = ({ status, message, onValidated, router }) => {
         EMAIL: email,
       });
   };
-
+  // console.log(message);
   useEffect(() => {
     if (
       router.asPath === "/" ||
@@ -162,7 +162,7 @@ const CustomForm = ({ status, message, onValidated, router }) => {
       router.asPath === "/realgoodfriends"
     ) {
       if (!localStorage.getItem("popup")) {
-        localStorage.setItem("popup", "1");
+        localStorage.setItem("popup", "2");
       }
       if (localStorage.getItem("popup") === "1") {
         localStorage.setItem("popup", "2");
@@ -172,7 +172,10 @@ const CustomForm = ({ status, message, onValidated, router }) => {
         localStorage.setItem("popup", "1");
       }
 
-      if (localStorage.getItem("popup") === "1") {
+      if (
+        !localStorage.getItem("popup") ||
+        localStorage.getItem("popup") === "1"
+      ) {
         setTimeout(() => {
           setPopupShow(true);
         }, "2000");

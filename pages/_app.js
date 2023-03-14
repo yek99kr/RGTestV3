@@ -4,6 +4,7 @@ import { AnimatePresence } from "framer-motion";
 import { AppContextProvider } from "../context/AppContext";
 import Nav from "../components/Nav";
 import Link from "next/link";
+
 import { PrismicProvider } from "@prismicio/react";
 import { PrismicPreview } from "@prismicio/next";
 import { linkResolver, repositoryName } from "../prismicio";
@@ -11,12 +12,34 @@ import useMediaQueryHeight from "../utils/useMediaQueryHeight";
 import "keen-slider/keen-slider.min.css";
 import ShopProvider from "../context/shopContext";
 import EmailSubscribe from "../components/EmailSubscribe";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps, router }) {
   const isSmallestHeight = useMediaQueryHeight(349);
 
   return (
     <>
+      <Head>
+        <link
+          rel="icon"
+          type="image/png"
+          href="/favicon/favicon-32x32.png"
+          sizes="32x32"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          href="/favicon/favicon-16x16.png"
+          sizes="16x16"
+        />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
+        <meta charSet="utf-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <title>Real Good Studio</title>
+      </Head>
       {/* <Head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
