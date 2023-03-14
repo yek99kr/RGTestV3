@@ -261,7 +261,7 @@ const CustomForm = ({ status, message, onValidated, router }) => {
             )}
             {status === "success" && (
               <p className="font-bold">
-                You've been subscribed.
+                You&apos;ve been subscribed.
                 <br />
                 Thank you for joining!
               </p>
