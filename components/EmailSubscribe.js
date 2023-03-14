@@ -156,14 +156,25 @@ const CustomForm = ({ status, message, onValidated, router }) => {
   };
   // console.log(message);
   useEffect(() => {
+    // localStorage.clear();
     if (
       router.asPath === "/" ||
       router.asPath === "/work" ||
       router.asPath === "/realgoodfriends"
     ) {
-      if (!localStorage.getItem("popup")) {
-        localStorage.setItem("popup", "2");
+      if (
+        localStorage.getItem("popup") === null ||
+        localStorage.getItem("popup") === "1"
+      ) {
+        setTimeout(() => {
+          setPopupShow(true);
+        }, "2000");
       }
+
+      if (localStorage.getItem("popup") === null) {
+        localStorage.setItem("popup", "1");
+      }
+
       if (localStorage.getItem("popup") === "1") {
         localStorage.setItem("popup", "2");
       } else if (localStorage.getItem("popup") === "2") {
@@ -171,15 +182,9 @@ const CustomForm = ({ status, message, onValidated, router }) => {
       } else if (localStorage.getItem("popup") === "3") {
         localStorage.setItem("popup", "1");
       }
-
-      if (
-        !localStorage.getItem("popup") ||
-        localStorage.getItem("popup") === "1"
-      ) {
-        setTimeout(() => {
-          setPopupShow(true);
-        }, "2000");
-      }
+      console.log(
+        !localStorage.getItem("popup") || localStorage.getItem("popup") === "1"
+      );
     } else {
     }
   }, []);
