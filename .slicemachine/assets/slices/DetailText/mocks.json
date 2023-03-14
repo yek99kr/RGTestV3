@@ -1,0 +1,17 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "detail_text",
+    "items": [],
+    "primary": {
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Excepteur elit consectetur commodo.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

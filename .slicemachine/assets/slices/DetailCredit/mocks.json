@@ -1,0 +1,42 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "detail_credit",
+    "items": [
+      {
+        "title": "envisioneer 24/7 systems",
+        "name": "benchmark strategic initiatives"
+      },
+      {
+        "title": "visualize enterprise synergies",
+        "name": "expedite dynamic initiatives"
+      },
+      {
+        "title": "streamline cutting-edge e-commerce",
+        "name": "mesh impactful networks"
+      },
+      {
+        "title": "whiteboard wireless e-services",
+        "name": "brand innovative mindshare"
+      }
+    ],
+    "primary": {}
+  },
+  {
+    "variation": "noReadMore",
+    "name": "noReadMore",
+    "slice_type": "detail_credit",
+    "items": [
+      {
+        "title": "seize best-of-breed convergence",
+        "name": "monetize B2B markets"
+      },
+      {
+        "title": "brand plug-and-play convergence",
+        "name": "extend synergistic action-items"
+      }
+    ],
+    "primary": {}
+  }
+]

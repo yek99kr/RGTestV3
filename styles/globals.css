@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  overflow-x: hidden;
+  background-color: #e9ebf0;
+}
+
+body {
+  width: 100%;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+a::-moz-focus-inner {
+  border: 0;
+}
+button:focus {
+  outline: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.thumbcursor {
+  cursor: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='18.5' height='18.5' viewBox='0 0 38.1 50'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M8,22.7s7.1-4,9.1-8.3,2.4-7,3.3-10.5a3.5,3.5,0,0,1,6.2-1.4c1,1.5,1.7,5,1.7,9.3s-1.9,7.5-1.9,8.2,6.8.9,9.2.7,7.7.8,7.7,3.6-4.6,3.5-4.6,3.5,4.8.5,4.8,3.8-3.7,3.2-6.1,3.2c0,0,5.6.7,4.6,4.7s-2.5,2.3-5.6,2.3c0,0,4.5.2,3.4,4s-6.5,2.9-9.3,2.4L8.8,44.3a10,10,0,0,0,.7-2.8c.3-2.6-1.4-7-1.4-7a16.6,16.6,0,0,1,4.1-4.9A16.1,16.1,0,0,1,8,26.1S6.9,24.1,8,22.7Z' transform='translate(-6.4)'/%3E%3Cpath d='M35.4,50a20.6,20.6,0,0,1-3.9-.5l-1.1-.3L8.6,45.3a.8.8,0,0,1-.7-.5,1,1,0,0,1-.1-.9,8.8,8.8,0,0,0,.7-2.6c.2-1.8-.9-5.2-1.3-6.4a1.1,1.1,0,0,1,0-.8,18.6,18.6,0,0,1,3.2-4.4,14.3,14.3,0,0,1-3.3-2.9c0-.1,0-.1-.1-.2s-1.3-2.7.2-4.6q0-.2.3-.3s6.8-3.8,8.6-7.7a33.9,33.9,0,0,0,2.7-8.2l.6-2.2A4.2,4.2,0,0,1,23.1.1a4.2,4.2,0,0,1,4.4,1.8c1.1,1.8,1.8,5.6,1.8,9.9a19.2,19.2,0,0,1-1.6,7.6h0a48.5,48.5,0,0,0,7.8.3c3.3-.3,6.2.4,7.6,1.8a3.9,3.9,0,0,1,1.3,2.8A4.1,4.1,0,0,1,43,27.6l-.5.4a4.6,4.6,0,0,1,.8,6.9,3.9,3.9,0,0,1-1.4.8l.5.6a4.2,4.2,0,0,1,.6,3.5,3.3,3.3,0,0,1-2.5,2.9,4,4,0,0,1,.3,3.4C40,49.2,37.7,50,35.4,50ZM10.2,43.5l20.5,3.7,1.2.2c3.4.7,6.1,1.1,6.9-1.9a1.7,1.7,0,0,0-.1-1.6,4,4,0,0,0-2.3-1.1,1,1,0,0,1-1-1.1,1.1,1.1,0,0,1,1-1h1.5c2.3,0,2.7,0,3.1-1.5a2.2,2.2,0,0,0-.3-1.8c-.8-1.1-2.7-1.5-3.4-1.6a1.2,1.2,0,0,1-1-1.1,1.1,1.1,0,0,1,1.1-1h1.2c1.2.1,2.6.2,3.3-.4a3,3,0,0,0,.5-1.8c0-2.3-3.7-2.8-3.8-2.8h0a.9.9,0,0,1-.9-1.1,1,1,0,0,1,1.1-1h0a3.9,3.9,0,0,0,2.8-.6,2.5,2.5,0,0,0,.7-1.8,1.4,1.4,0,0,0-.6-1.2c-1-1-3.4-1.5-6-1.3-.1,0-8.7.3-10-.9a1.5,1.5,0,0,1-.4-.9,5.1,5.1,0,0,1,.4-1.4,15.1,15.1,0,0,0,1.5-6.8c0-4.4-.7-7.6-1.5-8.8a2.4,2.4,0,0,0-4.3,1.1c-.2.8-.4,1.5-.5,2.1A35.3,35.3,0,0,1,18,14.9c-1.9,4.1-8,7.8-9.3,8.5a3,3,0,0,0,.2,2.2,18.3,18.3,0,0,0,3.8,3.1.8.8,0,0,1,.5.8,1.1,1.1,0,0,1-.4.9,16.2,16.2,0,0,0-3.5,4.2c.4,1.3,1.5,4.7,1.3,7A10.6,10.6,0,0,1,10.2,43.5Z' transform='translate(-6.4)'/%3E%3Cpath d='M30.2,40.9H20.4a1.1,1.1,0,0,1-1-1.1,1,1,0,0,1,1-1h9.8a1,1,0,0,1,1.1,1A1.1,1.1,0,0,1,30.2,40.9Z' transform='translate(-6.4)'/%3E%3Cpath d='M30.2,34.9H20.4a1,1,0,0,1-1-1,1.1,1.1,0,0,1,1-1.1h9.8a1.1,1.1,0,0,1,1.1,1.1A1,1,0,0,1,30.2,34.9Z' transform='translate(-6.4)'/%3E%3Cpath d='M30.2,29H20.4a1.1,1.1,0,0,1-1-1.1,1.1,1.1,0,0,1,1-1h9.8a1.1,1.1,0,0,1,1.1,1A1.1,1.1,0,0,1,30.2,29Z' transform='translate(-6.4)'/%3E%3C/svg%3E")
+      5 5,
+    auto;
+}
+
+.insta {
+  font-weight: 600;
+}
+
+.deck {
+  position: relative;
+  font-weight: 600;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0.15em;
+  }
+
+  50% {
+    top: -0.15em;
+  }
+
+  100% {
+    top: 0.15em;
+  }
+}
+
+.wiggle1 {
+  position: relative;
+  display: inline-block;
+  animation: bounce 1s ease infinite;
+}
+
+.wiggle2 {
+  position: relative;
+  display: inline-block;
+  animation: bounce 1s ease infinite 0.1s;
+}
+.wiggle3 {
+  position: relative;
+  display: inline-block;
+  animation: bounce 1s ease infinite 0.2s;
+}
+
+.wiggle4 {
+  position: relative;
+  display: inline-block;
+  animation: bounce 1s ease infinite 0.3s;
+}
+
+.wiggle5 {
+  position: relative;
+  display: inline-block;
+  animation: bounce 1s ease infinite 0.4s;
+}
+
+.wiggle6 {
+  position: relative;
+  display: inline-block;
+  animation: bounce 1s ease infinite 0.5s;
+}
+
+.wiggle7 {
+  position: relative;
+  display: inline-block;
+  animation: bounce 1s ease infinite 0.6s;
+}
+.wiggle8 {
+  position: relative;
+  display: inline-block;
+  animation: bounce 1s ease infinite 0.7s;
+}
+
+.wiggle9 {
+  position: relative;
+  display: inline-block;
+  animation: bounce 1s ease infinite 0.8s;
+}
+
+.wiggle1:hover {
+  transform: scaleX(-1) scaleY(1);
+}
+.wiggle2:hover {
+  transform: scaleX(-1) scaleY(1);
+}
+.wiggle3:hover {
+  transform: scaleX(-1) scaleY(1);
+}
+.wiggle4:hover {
+  transform: scaleX(-1) scaleY(1);
+}
+.wiggle5:hover {
+  transform: scaleX(-1) scaleY(1);
+}
+.wiggle6:hover {
+  transform: scaleX(-1) scaleY(1);
+}
+.wiggle7:hover {
+  transform: scaleX(-1) scaleY(1);
+}
+.wiggle8:hover {
+  transform: scaleX(-1) scaleY(1);
+}
+.wiggle9:hover {
+  transform: scaleX(-1) scaleY(1);
+}
+
+select {
+  height: 1.45em;
+}
+
+::selection {
+  background: #d9dbe1;
+}
+
+.fade {
+  opacity: 0;
+}
+.fadeIn {
+  opacity: 1;
+}
+
+.unblur {
+  animation: unblur 0.5s linear;
+}
+
+@keyframes unblur {
+  from {
+    filter: blur(20px);
+  }
+  to {
+    filter: blur(0);
+  }
+}
+.notvisible {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.visible {
+  opacity: 1;
+}
+input[type="range"] {
+  overflow: hidden;
+  width: 80px;
+  -webkit-appearance: none;
+  background-color: #9a905d;
+}
+
+.thumbnail .keen-slider__slide {
+  font-size: 30px;
+  margin-top: 10px;
+  filter: blur(2px);
+}
+.thumbnail .keen-slider__slide {
+  cursor: pointer;
+}
+.thumbnail .keen-slider__slide.active {
+  /* border: 2px dashed black; */
+  filter: blur(0);
+}

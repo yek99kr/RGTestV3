@@ -1,0 +1,43 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "detail_media9_x16",
+    "items": [],
+    "primary": {
+      "media1": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "media1Autoplay": false,
+      "media2": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "media2Autoplay": false,
+      "media3": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "media3Autoplay": true
+    }
+  },
+  {
+    "variation": "2Rows",
+    "name": "2Rows",
+    "slice_type": "detail_media9_x16",
+    "items": [],
+    "primary": {
+      "media1": {
+        "link_type": "Web",
+        "url": "http://twitter.com"
+      },
+      "media1Autoplay": false,
+      "media2": {
+        "link_type": "Web",
+        "url": "http://google.com"
+      },
+      "media2Autoplay": true
+    }
+  }
+]

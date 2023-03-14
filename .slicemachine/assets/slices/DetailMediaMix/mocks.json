@@ -1,0 +1,74 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "detail_media_mix",
+    "items": [],
+    "primary": {
+      "media1": {
+        "link_type": "Web",
+        "url": "http://twitter.com"
+      },
+      "media1Autoplay": true,
+      "media2": {
+        "link_type": "Web",
+        "url": "http://google.com"
+      },
+      "media2Autoplay": true
+    }
+  },
+  {
+    "variation": "3411",
+    "name": "3/4 + 1/1",
+    "slice_type": "detail_media_mix",
+    "items": [],
+    "primary": {
+      "media1": {
+        "link_type": "Web",
+        "url": "http://twitter.com"
+      },
+      "media1Autoplay": false,
+      "media2": {
+        "link_type": "Web",
+        "url": "http://google.com"
+      },
+      "media2Autoplay": true
+    }
+  },
+  {
+    "variation": "4545",
+    "name": "4/5 + 4/5",
+    "slice_type": "detail_media_mix",
+    "items": [],
+    "primary": {
+      "media1": {
+        "link_type": "Web",
+        "url": "http://twitter.com"
+      },
+      "media1Autoplay": false,
+      "media2": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "media2Autoplay": false
+    }
+  },
+  {
+    "variation": "11Filter",
+    "name": "11Filter",
+    "slice_type": "detail_media_mix",
+    "items": [],
+    "primary": {
+      "media1": {
+        "link_type": "Web",
+        "url": "http://google.com"
+      },
+      "media1Autoplay": false,
+      "media2": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "media2Autoplay": false
+    }
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "id": "project",
+  "label": "project",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Uid",
+          "placeholder": ""
+        }
+      },
+      "client": {
+        "type": "Text",
+        "config": {
+          "label": "Client",
+          "placeholder": ""
+        }
+      },
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        }
+      },
+      "thumbnails": {
+        "type": "Group",
+        "config": {
+          "label": "Thumbnails",
+          "fields": {
+            "thumbnail": {
+              "type": "Image",
+              "config": {
+                "label": "Thumbnail",
+                "constraint": {},
+                "thumbnails": []
+              }
+            }
+          }
+        }
+      },
+      "mobileThumbnail": {
+        "type": "Image",
+        "config": {
+          "label": "Mobile Thumbnail",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "bgColor": {
+        "type": "Color",
+        "config": {
+          "label": "Bg Color",
+          "placeholder": ""
+        }
+      },
+      "textColor": {
+        "type": "Color",
+        "config": {
+          "label": "Text Color",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "detail_media": {
+              "type": "SharedSlice"
+            },
+            "detail_text": {
+              "type": "SharedSlice"
+            },
+            "detail_main_text": {
+              "type": "SharedSlice"
+            },
+            "detail_media1_x1": {
+              "type": "SharedSlice"
+            },
+            "detail_credit": {
+              "type": "SharedSlice"
+            },
+            "detail_media9_x16": {
+              "type": "SharedSlice"
+            },
+            "detail_media_mix": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "detail_main_text",
+    "items": [],
+    "primary": {
+      "title": "architect enterprise relationships",
+      "summary": [
+        {
+          "type": "paragraph",
+          "text": "Dolor et reprehenderit ea duis nisi anim minim cillum magna sint aute sit culpa nulla. Duis dolore mollit sunt consequat voluptate ut deserunt anim. Est sunt qui est laboris aliquip.",
+          "spans": []
+        }
+      ],
+      "moreInfo": [
+        {
+          "type": "paragraph",
+          "text": "Aliquip cupidatat officia ut officia magna.",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "variation": "noReadMore",
+    "name": "NoReadMore",
+    "slice_type": "detail_main_text",
+    "items": [],
+    "primary": {
+      "Title": "utilize rich mindshare",
+      "moreInfo": [
+        {
+          "type": "paragraph",
+          "text": "Quis sint sunt do non ea enim deserunt ullamco ad duis id laborum. Sit laborum eu eu veniam qui Lorem magna tempor eiusmod.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]
