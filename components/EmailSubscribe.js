@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 // const EmailSubscribe = ({ projects }) => {

@@ -1,6 +1,5 @@
 import "../styles/globals.css";
-// import { GoogleAnalytics } from "nextjs-google-analytics";
-import Head from "next/head";
+
 import { AnimatePresence } from "framer-motion";
 import { AppContextProvider } from "../context/AppContext";
 import Nav from "../components/Nav";
