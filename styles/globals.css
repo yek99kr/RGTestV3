@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Rashi+Hebrew&display=swap');
+
+.Reenie{
+  font-family: 'Reenie Beanie', cursive;
+}
+.Noto{
+  font-family: 'Noto Rashi Hebrew', serif;
+}
 html,
 body {
   padding: 0;
@@ -9,6 +18,8 @@ body {
   font-family: Helvetica, sans-serif;
   overflow-x: hidden;
   background-color: #e9ebf0;
+
+
 }
 
 body {

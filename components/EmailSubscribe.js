@@ -65,7 +65,7 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 //         <div className="absolute pointer-events-auto left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[108vw] sm:w-[650px] md:w-[720px] lg:w-[830px] xl:w-[950px] rotate-2 aspect-video">
 //           <img src="newsletter.png"></img>
 
-//           <p className="absolute top-[14%] left-[9.5%] font-bold sm:leading-tight">
+//           <p className="absolute top-[14%] left-[9.5%] sm:leading-tight">
 //             Join our <br /> Mailing List
 //           </p>
 
@@ -168,7 +168,7 @@ const CustomForm = ({ status, message, onValidated, router }) => {
       ) {
         setTimeout(() => {
           setPopupShow(true);
-        }, "2000");
+        }, "4000");
       }
 
       if (localStorage.getItem("popup") === null) {
@@ -200,28 +200,49 @@ const CustomForm = ({ status, message, onValidated, router }) => {
         }`}
       ></div>
       <div
-        className={`fixed z-[10000] w-[100vw] h-[100vh] text-[2.6vw] sm:text-sm md:text-base lg:text-xl transition duration-[1s] translate-x-[100%]  ${
+        className={`fixed z-[10000] w-[100vw] h-[100vh] text-[3.3vw] sm:text-base md:text-xl lg:text-2xl transition duration-[1s] translate-x-[100%]  ${
           popupShow && "translate-x-[0%] pointer-events-none"
         }`}
       >
-        <div className="absolute pointer-events-auto left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[108vw] sm:w-[650px] md:w-[720px] lg:w-[830px] xl:w-[950px] rotate-2 aspect-video">
-          <img src="newsletter.png"></img>
+        <div className="absolute pointer-events-auto left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] sm:w-[550px] md:w-[650px] lg:w-[750px] xl:w-[800px] rotate-2 aspect-video">
+          <img
+            src="newsletter.png"
+            className="drop-shadow-[0_0px_5px_rgba(0,0,0,0.3)] sm:drop-shadow-[0_0px_10px_rgba(0,0,0,0.3)]"
+          ></img>
 
-          <p className="absolute top-[14%] left-[9.5%] font-bold sm:leading-tight">
-            Join our <br /> Mailing List
-          </p>
+          <div className="flex absolute top-[5.5%] Noto left-[5%] ">
+            <div className="">From</div>
+            <div className="relative top-[8px] ml-2">
+              <img
+                className="w-[21vw] sm:w-[100px] md:w-[130px] lg:w-[160px] mb-[0.8vw] sm:mb-0.5"
+                src="/logoLong.png"
+              ></img>
+              <p className="text-[2.3vw] md:text-[0.8rem] lg:text-[1rem] leading-[2.8vw] md:leading-[0.9rem] lg:leading-[1.2rem]">
+                <a
+                  href="https://www.instagram.com/real.good.studio/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  @real.good.studio
+                </a>
+                <br />
+                hello@realgood.tv
+              </p>
+            </div>
+          </div>
 
-          <div className="absolute font-bold bottom-[23vw] sm:bottom-[39%] right-[16%] w-[33.5vw] sm:w-[200px] md:w-[228px] lg:w-[260px] xl:w-[300px]">
+          <div className="absolute left-1/2 top-1/2 -translate-x-[105%] -translate-y-[40%] w-[33.5vw] sm:w-[200px] md:w-[228px] lg:w-[260px] xl:w-[300px]">
             <form
               className={`pointer-events-auto ${
                 status === null ? "block" : "hidden"
               }`}
               onSubmit={(e) => handleSubmit(e)}
             >
+              <span className="Noto">Join our Mailing List</span>
               <input
                 type="email"
                 label="Email"
-                className="appearance-none bg-none w-full bg-gray-100 font-bold leading-tight focus:outline-none "
+                className="appearance-none Reenie text-[4vw] sm:text-lg md:text-2xl lg:text-3xl font-[Reenie Beanie] bg-none w-full bg-gray-100 leading-tight focus:outline-none "
                 required
                 pattern="^[^ ]+@[^ ]+\.[a-z]{2,6}$"
                 placeholder="Your Email"
@@ -229,31 +250,18 @@ const CustomForm = ({ status, message, onValidated, router }) => {
                 onChange={(e) => setEmail(e.target.value)}
               />
               <hr className="border-[1.15px] border-black" />
-              {/* 
-            <input
-              className={`hover:underline text-center justify-self-center  font-bold mt-[2%]  thumbcursor `}
-              type="submit"
-              label="subscribe"
-              disabled={status === "sending"}
-              formValues={[email]}
-              // onClick={subscribe}
-            >
-              Subscribe
-           /> */}
               <input
-                className={`hover:underline text-center justify-self-center  font-bold mt-[2%]  thumbcursor `}
+                className={`hover:underline Noto text-center justify-self-center  mt-[2%]  thumbcursor `}
                 label="subscribe"
                 type="submit"
                 // formValues={[email]}
               />
             </form>
 
-            {status === "sending" && (
-              <p className="mb-[3vw] sm:mb-[6%] font-bold">Loading...</p>
-            )}
+            {status === "sending" && <p className=" Noto">Loading...</p>}
 
             {status === "error" && (
-              <p className="font-bold">
+              <p className="Noto">
                 Something went wrong
                 <br />
                 Please try with this{" "}
@@ -268,7 +276,7 @@ const CustomForm = ({ status, message, onValidated, router }) => {
               </p>
             )}
             {status === "success" && (
-              <p className="font-bold">
+              <p className="Noto">
                 You&apos;ve been subscribed.
                 <br />
                 Thank you for joining!
