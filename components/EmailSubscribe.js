@@ -182,9 +182,9 @@ const CustomForm = ({ status, message, onValidated, router }) => {
       } else if (localStorage.getItem("popup") === "3") {
         localStorage.setItem("popup", "1");
       }
-      console.log(
-        !localStorage.getItem("popup") || localStorage.getItem("popup") === "1"
-      );
+      // console.log(
+      //   !localStorage.getItem("popup") || localStorage.getItem("popup") === "1"
+      // );
     } else {
     }
   }, []);
