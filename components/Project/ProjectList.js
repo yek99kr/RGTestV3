@@ -29,7 +29,7 @@ const ProjectList = ({ projects }) => {
     "md:mt-[0vw] md:rotate-[4deg] md:col-start-5 md:top-[110px] xl:top-[50px] md:-mr-[100px] xl:-mr-[250px]",
   ];
 
-  const sizes = [27, 26, 26, 30, 32, 24, 27, 25, 25, 26, 24, 25, 24, 30];
+  const sizes = [29, 26, 26, 28, 30, 24, 27, 25, 25, 26, 24, 25, 24, 30];
 
   return (
     <div className="mx-auto py-16 px-5 sm:px-6 lg:px-0 sm:mt-[1rem] md:w-[90vw] lg:w-[80vw] xl:w-[75vw] ">
