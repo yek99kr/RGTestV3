@@ -94,7 +94,8 @@ const Hands = ({ router }) => {
             router={router}
           />
         </Suspense>
-        <Environment preset="city" />
+        <Environment files="potsdamer_platz_1k.hdr" />
+        {/* <Environment preset="city" /> */}
       </Canvas>
     </div>
   );
