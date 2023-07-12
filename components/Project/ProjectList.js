@@ -10,7 +10,7 @@ const ProjectList = ({ projects }) => {
 
   const classes = [
     "md:mt-[2vw] md:rotate-[-3deg] md:col-start-1 md:top-[-0px]",
-    "md:mt-[6vw] md:rotate-[-8deg] md:col-start-3 md:top-[20px]",
+    "md:mt-[6vw] md:rotate-[-8deg] md:col-start-3 md:top-[20px] md:left-[-20px]",
     "md:mt-[0vw] md:rotate-[9deg] md:col-start-5 md:top-[-30px]",
 
     "md:mt-[-5vw] md:rotate-[3deg] md:col-start-2 md:-ml-[13rem] md:top-[-40px]",
