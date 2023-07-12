@@ -10,7 +10,7 @@ const ProjectList = ({ projects }) => {
 
   const classes = [
     "md:mt-[2vw] md:rotate-[-3deg] md:col-start-1 md:top-[-0px]",
-    "md:mt-[6vw] md:rotate-[-8deg] md:col-start-3 md:top-[20px] md:left-[-20px]",
+    "md:mt-[6vw] md:rotate-[-5deg] md:col-start-3 md:top-[20px] md:left-[-10px]",
     "md:mt-[0vw] md:rotate-[9deg] md:col-start-5 md:top-[-30px]",
 
     "md:mt-[-5vw] md:rotate-[3deg] md:col-start-2 md:-ml-[13rem] md:top-[-40px]",
@@ -31,7 +31,7 @@ const ProjectList = ({ projects }) => {
     "md:mt-[-3vw] md:rotate-[-4deg] md:col-start-4 md:-mr-[10rem] md:top-[-30px]",
   ];
 
-  const sizes = [29, 30, 26, 28, 28, 25, 23, 24, 27, 25, 26, 26, 25, 29, 30];
+  const sizes = [29, 27, 26, 28, 27, 25, 25, 24, 29, 25, 26, 26, 25, 29, 30];
 
   return (
     <div className="mx-auto py-16 px-5 sm:px-6 lg:px-0 sm:mt-[1rem] md:w-[90vw] lg:w-[80vw] xl:w-[75vw] ">
