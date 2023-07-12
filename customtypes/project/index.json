@@ -26,6 +26,13 @@
           "placeholder": ""
         }
       },
+      "detailTitle": {
+        "type": "Text",
+        "config": {
+          "label": "Detail Title",
+          "placeholder": ""
+        }
+      },
       "thumbnails": {
         "type": "Group",
         "config": {

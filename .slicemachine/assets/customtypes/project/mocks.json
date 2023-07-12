@@ -1,10 +1,11 @@
 {
-  "id": "8d53706b-8628-4e49-b93a-654e0bdd46a8",
-  "uid": "accusamus-impedit-asperiores",
+  "id": "7cb57155-943b-4ec6-972f-f8ac65763956",
+  "uid": "nemo-sunt-pariatur",
   "type": "project",
   "data": {
-    "client": "disintermediate dot-com solutions",
-    "title": "transform scalable interfaces",
+    "client": "visualize mission-critical synergies",
+    "title": "scale web-enabled applications",
+    "detailTitle": "innovate sticky e-tailers",
     "mobileThumbnail": {
       "dimensions": {
         "width": 900,
@@ -12,10 +13,10 @@
       },
       "alt": "Placeholder image",
       "copyright": null,
-      "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
+      "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=900&h=500&fit=crop"
     },
-    "bgColor": "#0fdfdf",
-    "textColor": "#721979",
+    "bgColor": "#a94c19",
+    "textColor": "#2a10a8",
     "thumbnails": [
       {
         "thumbnail": {
@@ -25,7 +26,7 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
         }
       },
       {
@@ -36,29 +37,7 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"
-        }
-      },
-      {
-        "thumbnail": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
-        }
-      },
-      {
-        "thumbnail": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
         }
       },
       {

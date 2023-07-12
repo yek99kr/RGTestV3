@@ -21,55 +21,21 @@ const ProjectDetail = ({ project, projects }) => {
             </span>
           </h1>
 
-          <p className="title relative text-[3.1vw] sm:text-[22px] lg:text-[24px] xl:text-[26px] mb-[2vw] md:mb-[30px] font-mono">
-            <span className="text-white bg-black p-[0.2vw] md:p-0.5 pl-2 pr-2">
-              {project.data.title}
-            </span>
-          </p>
+          {project.data.detailTitle ? (
+            <p className="title relative text-[3.1vw] sm:text-[22px] lg:text-[24px] xl:text-[26px] mb-[2vw] md:mb-[30px] font-mono">
+              <span className="text-white bg-black p-[0.2vw] md:p-0.5 pl-2 pr-2">
+                {project.data.detailTitle}
+              </span>
+            </p>
+          ) : (
+            <p className="title relative text-[3.1vw] sm:text-[22px] lg:text-[24px] xl:text-[26px] mb-[2vw] md:mb-[30px] font-mono">
+              <span className="text-white bg-black p-[0.2vw] md:p-0.5 pl-2 pr-2">
+                {project.data.title}
+              </span>
+            </p>
+          )}
         </div>
         <SliceZone slices={project.data.slices} components={components} />
-        {/* <iframe
-          className="w-[100%] h-[100%]"
-          src="
-                https://player.vimeo.com/video/794674119?h=5323d8e65d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?quality=1080p&loop=1&background=1&autoplay=1&muted=1&controls=0"
-          allowFullScreen
-        ></iframe>{" "}
-        <iframe
-          className="w-[100%] h-[100%]"
-          src="
-              https://player.vimeo.com/video/794674119?h=5323d8e65d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?quality=1080p&loop=1&background=1&autoplay=1&muted=1&controls=0"
-          allowFullScreen
-        ></iframe>{" "}
-        <iframe
-          className="w-[100%] h-[100%]"
-          src="
-            https://player.vimeo.com/video/794674119?h=5323d8e65d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?quality=1080p&loop=1&background=1&autoplay=1&muted=1&controls=0"
-          allowFullScreen
-        ></iframe>
-        <iframe
-          className="w-[100%] h-[100%]"
-          src="
-                https://player.vimeo.com/video/794674119?h=5323d8e65d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?quality=1080p&loop=1&background=1&autoplay=1&muted=1&controls=0"
-          allowFullScreen
-        ></iframe>
-        <iframe
-          className="w-[100%] h-[100%]"
-          src="
-                https://player.vimeo.com/video/794674119?h=5323d8e65d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?quality=1080p&loop=1&background=1&autoplay=1&muted=1&controls=0"
-          allowFullScreen
-        ></iframe>
-        <iframe
-          className="w-[100%] h-[100%]"
-          src="
-                https://player.vimeo.com/video/794674119?h=5323d8e65d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?quality=1080p&loop=1&background=1&autoplay=1&muted=1&controls=0"
-          allowFullScreen
-        ></iframe>
-        <iframe
-          className="w-[100%] h-[100%]"
-          src="
-                https://player.vimeo.com/video/794674119?h=5323d8e65d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?quality=1080p&loop=1&background=1&autoplay=1&muted=1&controls=0"
-          allowFullScreen
-        ></iframe> */}
       </div>
 
       <ProjectBtn project={project} projects={projects} />
