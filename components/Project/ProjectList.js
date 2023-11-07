@@ -27,8 +27,12 @@ const ProjectList = ({ projects }) => {
     "md:mt-[6vw] md:rotate-[-8deg] md:col-start-3  md:top-[30px]  md:-ml-[0px] xl:-ml-[0px] lg:pb-[100px]",
     "md:mt-[0vw] md:rotate-[4deg] md:col-start-5 md:top-[-80px] xl:top-[-60px] xl:-ml-[0px]",
 
-    "md:mt-[-3vw] md:rotate-[3deg] md:col-start-2 md:-ml-[13rem] md:top-[-0px]",
-    "md:mt-[-3vw] md:rotate-[-4deg] md:col-start-4 md:-mr-[10rem] md:top-[-30px]",
+    "md:mt-[2vw] md:rotate-[-5deg] md:col-start-1 md:top-[-100px] xl:top-[-90px] xl:-ml-[0px]",
+    "md:mt-[6vw] md:rotate-[5deg] md:col-start-3  md:top-[30px]  md:-ml-[0px] xl:-ml-[-20px] lg:pb-[100px]",
+    "md:mt-[0vw] md:rotate-[-6deg] md:col-start-5 md:top-[-80px] xl:top-[-60px] xl:-ml-[-20px]",
+
+    // "md:mt-[-3vw] md:rotate-[3deg] md:col-start-2 md:-ml-[25rem] md:top-[-0px]",
+    // "md:mt-[-3vw] md:rotate-[-4deg] md:col-start-4 md:-mr-[25rem] md:top-[-30px]",
   ];
 
   const sizes = [
