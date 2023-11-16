@@ -1,14 +1,15 @@
 import Image from "next/image";
-import { useState } from "react";
-import cn from "clsx";
+// import { useState } from "react";
+// import cn from "clsx";
 
 function LoadImage(props) {
-  const [isLoading, setLoading] = useState(true);
+  // const [isLoading, setLoading] = useState(true);
   // console.log(props.src);
 
   return (
     <Image
       {...props}
+      // blurDataURL="/images/path-to-blur-image.jpg"
       placeholder="blur"
       blurDataURL={`/_next/image?url=${props.src}&w=16&q=1`}
     />

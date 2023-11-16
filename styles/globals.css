@@ -185,6 +185,12 @@ select {
 .visible {
   opacity: 1;
 }
+input[type="range"] {
+  overflow: hidden;
+  width: 80px;
+  -webkit-appearance: none;
+  background-color: #9a905d;
+}
 
 .thumbnail .keen-slider__slide {
   font-size: 30px;
@@ -198,3 +204,5 @@ select {
   /* border: 2px dashed black; */
   filter: blur(0);
 }
+
+

@@ -23,6 +23,7 @@
     "axios": "^0.27.2",
     "clsx": "^1.2.1",
     "framer-motion": "^6.3.0",
+    "keen-slider": "^6.8.2",
     "next": "12.1.5",
     "next-slicezone": "^0.2.6",
     "nextjs-google-analytics": "^1.2.1",
