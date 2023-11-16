@@ -10,6 +10,7 @@ import useMediaQueryHeight from "../utils/useMediaQueryHeight";
 import ShopProvider from "../context/shopContext";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import ContactPage from "../components/ContactPage";
+import "keen-slider/keen-slider.min.css";
 
 function MyApp({ router, Component, pageProps }) {
   const isSmallestHeight = useMediaQueryHeight(349);

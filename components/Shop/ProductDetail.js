@@ -2,7 +2,6 @@ import ProductForm from "./ProductForm";
 import Link from "next/link";
 import { useKeenSlider } from "keen-slider/react";
 import Image from "next/image";
-import "keen-slider/keen-slider.min.css";
 
 import Recommend from "./Recommend";
 
