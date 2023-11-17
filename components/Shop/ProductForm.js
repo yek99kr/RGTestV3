@@ -100,15 +100,15 @@ export default function ProductForm({ product }) {
   }, [productInventory, selectedVariant]);
 
   return (
-    <div className="flex flex-col w-full lg:w-[38vw] xl:w-[28vw] pl-[5vw] pr-[5vw] pb-0 lg:pb-10 lg:p-4 lg:pt-[14%] text-[2.9vw] sm:text-base mt-10 lg:ml-[3vw] ">
+    <div className="flex flex-col w-full lg:w-[38vw] xl:w-[28vw] pl-[5vw] pr-[5vw] pb-0 lg:pb-10 lg:p-4 lg:pt-[14%] text-[3.5vw] sm:text-base mt-10 lg:ml-[3vw] ">
       <h2 className="text-[4vw] pb-0.5 sm:text-2xl">{product.title}</h2>
       <span className="pb-4 lg:pb-10">
         {formatter.format(product.variants.edges[0].node.priceV2.amount)}
       </span>
 
-      <span className="pb-1 lg:pb-1">Details</span>
+      <span className="pb-1 lg:pb-0 text-[3.5vw] sm:text-lg">Details</span>
 
-      <div className=" pb-4 lg:pb-10 text-[2.5vw] sm:text-sm">
+      <div className=" pb-4 lg:pb-10 text-[3vw] sm:text-base">
         {product.description.split("|").map((t, i) => (
           <div className="pt-0.5" key={i}>
             {t}

@@ -29,7 +29,7 @@ export default function ProductOptions({
               />
               <div
                 style={{ transition: " 0.3s" }}
-                className={`thumbcursor p-2 mt-3 text-lg rounded block mr-3 hover:bg-white/90  backdrop-blur-md   ${
+                className={`thumbcursor pr-2 pl-2 pt-1.5 pb-1.5 sm:p-2 mt-3 text-lg rounded block mr-3 hover:bg-white/90  backdrop-blur-md   ${
                   checked
                     ? "bg-white/100 text-black"
                     : "bg-white/60  text-gray-300"
