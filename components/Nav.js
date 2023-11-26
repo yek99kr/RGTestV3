@@ -12,6 +12,11 @@ const Nav = () => {
 
   const [angle, setAngle] = useState("0");
 
+  let cartQuantity = 0;
+  cart.map((item) => {
+    return (cartQuantity += item?.variantQuantity);
+  });
+
   return (
     <>
       <div className="fixed top-0 pt-[2.5vw] sm:pt-3 z-[1000] text-[2.9vw] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[18.5px] flex justify-center items-center w-screen select-none">
@@ -134,7 +139,7 @@ const Nav = () => {
             <span className={`p-1.5 pr-[2vw] pl-[1vw] sm:pr-3 sm:pl-3  `}>
               Cart{" "}
               <span className="relative top-[-1.4vw] sm:top-[-0.4rem] md:top-[-0.4rem]  m-[-0.4vw] sm:m-[-2px] text-[1.5vw] sm:text-[7px] md:text-[10px]">
-                (0)
+                ({cartQuantity})
               </span>
             </span>
           </div>
