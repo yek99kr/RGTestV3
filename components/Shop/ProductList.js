@@ -9,14 +9,13 @@ const ProductList = ({ products }) => {
   const mouseAnimation = isSmallestHeight || isTouch;
 
   const classes = [
-    "md:mt-[2vw] md:rotate-[0deg] md:col-start-1 md:top-[-0px]",
-    "md:mt-[7vw] md:rotate-[-8deg] md:col-start-3",
-    "md:mt-[3vw] md:rotate-[9deg] md:col-start-5 ",
+    "md:mt-[0vw] md:rotate-[5deg] md:col-start-1 md:top-[-0px]",
+    "md:mt-[3vw] md:rotate-[-8deg] md:col-start-3",
+    "md:mt-[1vw] md:rotate-[-2deg] md:col-start-5 ",
 
-    "md:mt-[-3vw] md:rotate-[3deg] md:col-start-2 md:-ml-[13rem]",
-    "md:mt-[-1vw] md:rotate-[-4deg] md:col-start-4 md:-mr-[10rem]",
-
-    "md:mt-[-3vw] md:rotate-[0deg] md:col-start-1 ",
+    "md:mt-[-2vw] md:rotate-[4deg] md:col-start-1 md:-ml-[1rem]",
+    "md:mt-[4vw] md:rotate-[-4deg] md:col-start-3 md:-mr-[0rem]",
+    "md:mt-[-4vw] md:rotate-[2deg] md:col-start-5 ",
   ];
   return (
     <div className="mx-auto py-10 px-5 sm:px-6 lg:px-0 sm:mt-[1rem] md:w-[90vw] lg:w-[80vw] xl:w-[75vw] ">
