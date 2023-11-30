@@ -9,9 +9,9 @@ const ProductList = ({ products }) => {
   const mouseAnimation = isSmallestHeight || isTouch;
 
   const classes = [
-    "md:mt-[0vw] md:rotate-[5deg] md:col-start-1 md:top-[-0px]",
-    "md:mt-[3vw] md:rotate-[-8deg] md:col-start-3",
-    "md:mt-[1vw] md:rotate-[-2deg] md:col-start-5 ",
+    "md:mt-[2vw] md:rotate-[5deg] md:col-start-1 md:top-[-0px]",
+    "md:mt-[5vw] md:rotate-[-8deg] md:col-start-3",
+    "md:mt-[3vw] md:rotate-[-2deg] md:col-start-5 ",
 
     "md:mt-[-2vw] md:rotate-[4deg] md:col-start-1 md:-ml-[1rem]",
     "md:mt-[4vw] md:rotate-[-4deg] md:col-start-3 md:-mr-[0rem]",

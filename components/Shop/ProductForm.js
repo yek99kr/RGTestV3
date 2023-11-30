@@ -108,7 +108,7 @@ export default function ProductForm({ product }) {
 
       <span className="pb-1 lg:pb-0 text-[3.5vw] sm:text-lg">Details</span>
 
-      <div className=" pb-4 lg:pb-10 text-[3vw] sm:text-base">
+      <div className=" pb-4 lg:pb-8 text-[3vw] sm:text-base">
         {product.description.split("|").map((t, i) => (
           <div className="pt-0.5" key={i}>
             {t}
@@ -128,6 +128,7 @@ export default function ProductForm({ product }) {
           available={available}
         />
       ))}
+      {product.title.includes("Shirt") ? <ShirtSizeChart /> : ""}
       {available ? (
         <button
           onClick={() => {

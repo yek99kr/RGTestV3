@@ -8,7 +8,7 @@ export default function ProductOptions({
 }) {
   return (
     <fieldset className="mt-1">
-      <legend className="text-[2.9vw] sm:text-base">{name}</legend>
+      <legend className="text-[3vw] sm:text-base">{name}</legend>
       <div className="inline-flex items-center flex-wrap">
         {values.map((value) => {
           const id = `option-${name}-${value}`;
@@ -35,7 +35,7 @@ export default function ProductOptions({
                     : "bg-white/60  text-gray-300"
                 }`}
               >
-                <span className="px-2 text-[2.9vw] sm:text-base ">{value}</span>
+                <span className="px-2 text-[3vw] sm:text-base ">{value}</span>
               </div>
             </label>
           );
