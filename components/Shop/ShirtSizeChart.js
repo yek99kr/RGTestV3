@@ -22,11 +22,11 @@ const ShirtSizeChart = ({}) => {
       </div>
 
       <div
-        className={`fixed z-[100000] left-0 top-0 w-[100vw] h-[100vh] text-xs md:text-sm ${
+        className={`fixed z-[100000] left-0 top-0 w-[100vw] h-[100vh] text-[2.5vw] md:text-sm ${
           sizeChart ? "block" : "hidden"
         }`}
       >
-        <div className="top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded drop-shadow-lg fixed chart z-[1000000] w-[90%] h-[310px] sm:w-[80%] sm:h-[350px] md:w-[650px] md:h-[380px] bg-white opacity-100">
+        <div className="top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded drop-shadow-lg fixed chart z-[1000000] w-[90%] h-[320px] sm:w-[80%] sm:h-[350px] md:w-[650px] md:h-[380px] bg-white opacity-100">
           <div
             onClick={() => {
               setSizeChart(false);
