@@ -34,7 +34,7 @@ const ProductThumbnailDesktop = ({ product, size }) => {
           }}
         >
           <div
-            className={`relative md:w-[40vw] md:h-[40vw] lg:w-[30vw] lg:h-[30vw] xl:w-[26.5vw] xl:h-[26.5vw]`}
+            className={`relative md:w-[38vw] md:h-[38vw] lg:w-[34vw] lg:h-[34vw] xl:w-[27vw] xl:h-[27vw]`}
           >
             {/* <MouseAnimation thumbnails={thumbnails} /> */}
 
