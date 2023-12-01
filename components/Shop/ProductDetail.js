@@ -2,6 +2,7 @@ import ProductForm from "./ProductForm";
 import Link from "next/link";
 import { useKeenSlider } from "keen-slider/react";
 import Image from "next/image";
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 import Recommend from "./Recommend";
 
@@ -74,7 +75,9 @@ export default function ProductPageContent({ product }) {
                     key={`number-slide${i}`}
                     className={`keen-slider__slide number-slide${i} w-full h-full `}
                   >
-                    <Image
+                    <TransformWrapper>
+                      <TransformComponent>
+                        {/* <Image
                       src={image.node.originalSrc}
                       alt={image.node.altText}
                       layout="fill"
@@ -82,7 +85,13 @@ export default function ProductPageContent({ product }) {
                       placeholder="blur"
                       className="thumbcursor select-none"
                       blurDataURL={`/_next/image?url=${image.node.originalSrc}&w=16&q=1`}
-                    />
+                    /> */}
+                        <img
+                          className="thumbcursor select-none"
+                          src={image.node.originalSrc}
+                        ></img>
+                      </TransformComponent>
+                    </TransformWrapper>
                   </div>
                 );
               })}
