@@ -1,6 +1,7 @@
 {
   "_cts": {
-    "project": {}
+    "project": {},
+    "shop": {}
   },
   "slices": {
     "DetailText": {

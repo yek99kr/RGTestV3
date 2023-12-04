@@ -1,0 +1,43 @@
+{
+  "id": "bffe75cc-7523-46ca-8109-25c5fe79ebf7",
+  "uid": "aperiam-quia-qui",
+  "type": "shop",
+  "data": {
+    "MobileThumbnail": {
+      "link_type": "Web",
+      "url": "http://twitter.com"
+    },
+    "Thumbnails": [
+      {
+        "Thumbnail": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      },
+      {
+        "Thumbnail": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "Thumbnail": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "Thumbnail": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      },
+      {
+        "Thumbnail": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      }
+    ]
+  }
+}

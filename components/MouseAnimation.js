@@ -2,8 +2,8 @@ import { useState } from "react";
 import LoadImage from "./LoadImage";
 import cn from "clsx";
 
-const MouseAnimation = ({ thumbnails }) => {
-  const [moveImg, setMoveImg] = useState(0);
+const MouseAnimation = ({ thumbnails, defaultThumbnail }) => {
+  const [moveImg, setMoveImg] = useState(defaultThumbnail);
 
   return (
     <div

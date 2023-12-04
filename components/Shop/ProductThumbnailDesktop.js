@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { formatter } from "../../utils/helpers";
 import Image from "next/image";
-// import MouseAnimation from "../MouseAnimation";
+import MouseAnimation from "../MouseAnimation";
 
 const ProductThumbnailDesktop = ({ product, size }) => {
   const [hovered, setHovered] = useState(false);
@@ -11,12 +11,20 @@ const ProductThumbnailDesktop = ({ product, size }) => {
   const price = product.node.priceRange.minVariantPrice.amount;
 
   const { altText, originalSrc } = product.node.images.edges[0].node;
+
+  // const thumbnails = productThumbnails.data.Thumbnails.map((url) => {
+  //   return url.thumbnail.url;
+  // });
+  // console.log(productThumbnails);
+
+  console.log(handle);
+
   const thumbnails = [
-    `/shop/${handle}/test0.webp`,
-    `/shop/${handle}/test1.webp`,
-    `/shop/${handle}/test2.webp`,
-    `/shop/${handle}/test3.webp`,
-    `/shop/${handle}/test4.webp`,
+    `/shop/${handle}/1.webp`,
+    `/shop/${handle}/2.webp`,
+    `/shop/${handle}/3.webp`,
+    `/shop/${handle}/4.webp`,
+    `/shop/${handle}/5.webp`,
   ];
 
   // `/${folder}/${image}/test0.webp`
@@ -36,9 +44,9 @@ const ProductThumbnailDesktop = ({ product, size }) => {
           <div
             className={`relative md:w-[38vw] md:h-[38vw] lg:w-[34vw] lg:h-[34vw] xl:w-[27vw] xl:h-[27vw]`}
           >
-            {/* <MouseAnimation thumbnails={thumbnails} /> */}
+            <MouseAnimation thumbnails={thumbnails} defaultThumbnail={2} />
 
-            <Image
+            {/* <Image
               src={originalSrc}
               priority={true}
               loading="eager"
@@ -46,24 +54,9 @@ const ProductThumbnailDesktop = ({ product, size }) => {
               objectFit="cover"
               placeholder="blur"
               blurDataURL={`/_next/image?url=${originalSrc}&w=16&q=1`}
-            />
+            /> */}
           </div>
         </div>
-
-        {/* <div
-          className={`opacity-0 ${
-            hovered ? "md:opacity-100" : "md:opacity-0"
-          } `}
-          style={{ transition: "opacity 0.2s" }}
-        >
-          <h1 className="mt-0.5 text-center  md:text-xl lg:text-2xl">
-            {title}
-          </h1>
-         
-          <p className=" text-center m-[-0.2rem]  sm:text-base  m-[-0.1rem]">
-            {formatter.format(price)}
-          </p>
-        </div> */}
 
         <div
           className={`opacity-0 ${

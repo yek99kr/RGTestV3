@@ -1,0 +1,34 @@
+{
+  "id": "shop",
+  "label": "Shop",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "Thumbnails": {
+        "type": "Group",
+        "config": {
+          "label": "Thumbnails",
+          "fields": {
+            "Thumbnail": {
+              "type": "Link",
+              "config": {
+                "label": "Thumbnail",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "MobileThumbnail": {
+        "type": "Link",
+        "config": {
+          "label": "Mobile Thumbnail",
+          "placeholder": "",
+          "select": null
+        }
+      }
+    }
+  }
+}

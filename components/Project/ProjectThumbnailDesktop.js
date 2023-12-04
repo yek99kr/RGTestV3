@@ -31,7 +31,11 @@ const ProjectThumbnailDesktop = ({ project, size }) => {
               style={{ width: `${size}vw`, height: `${size}vw` }}
               className={`relative w-[80vw] h-[80vw] sm:w-[80vw] sm:h-[80vw] `}
             >
-              <MouseAnimation thumbnails={thumbnails} size={size} />
+              <MouseAnimation
+                thumbnails={thumbnails}
+                size={size}
+                defaultThumbnail={0}
+              />
             </div>
           </div>
 
