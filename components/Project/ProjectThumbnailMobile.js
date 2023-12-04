@@ -7,7 +7,7 @@ const ProjectThumbnailMobile = ({ project }) => {
       <a className="group thumbcursor">
         {
           <div className="w-full overflow-hidden">
-            <div className="relative w-[80vw] h-[80vw] mt-10 md:mt-0 md:w-[24vw] md:h-[24vw] xl:w-[23vw] xl:h-[23vw]">
+            <div className="relative w-[80vw] h-[80vw] mt-5 md:mt-0 md:w-[24vw] md:h-[24vw] xl:w-[23vw] xl:h-[23vw]">
               <LoadImage
                 src={
                   project.data.mobileThumbnail.url
