@@ -17,7 +17,6 @@ const ProductThumbnailMobile = ({ product }) => {
             <div className="relative w-[80vw] h-[80vw] mt-5 md:mt-0 md:w-[24vw] md:h-[24vw] xl:w-[23vw] xl:h-[23vw]">
               <LoadImage
                 src={originalSrc}
-                // alt={project.data.mobileThumbnail.alt}
                 priority={true}
                 loading="eager"
                 layout="fill"
