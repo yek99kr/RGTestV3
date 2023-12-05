@@ -10,9 +10,6 @@ const ProjectThumbnailDesktop = ({ project, size }) => {
     return url.thumbnail.url;
   });
 
-  const wsize = "w-[" + size + "vw]";
-  const hsize = "w-[" + size + "vw]";
-
   return (
     <>
       <Link href={`/work/${project.uid}`} passHref scroll={false}>
