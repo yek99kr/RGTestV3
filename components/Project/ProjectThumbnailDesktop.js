@@ -12,7 +12,6 @@ const ProjectThumbnailDesktop = ({ project, size }) => {
 
   const wsize = "w-[" + size + "vw]";
   const hsize = "w-[" + size + "vw]";
-  // console.log(wsize);
 
   return (
     <>
